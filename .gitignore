@@ -1,0 +1,12 @@
+# ignore ALL .xslx files
+*.xlsx
+*.xlsx
+*.csv
+
+# Ignore .env file
+.env
+
+# Ignore python virtual env
+.venv/
+# Ignore python cache
+__pycache__/
