@@ -26,8 +26,7 @@ def create_price(amount, **kwargs):
   metadata["race_date"] = config.race_date.strftime("%Y-%m-%d")
   metadata["date"] = date_str
   email = metadata["email"]
-  print(metadata)
-
+  
   res = stripe.Price.create(
     nickname=f"{config.race_title} {date_str} - {email}",
     unit_amount=int(amount)*100, # = 100 x 0.01 eur
