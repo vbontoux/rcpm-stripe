@@ -19,5 +19,5 @@ python price.py -e titi.isabelle@orange.fr -c "RCPM" -s 78024 -n "Vincent Bontou
 
 ## Read registration file and create a bash script to create prices and links
 ```bash
-python read_registration_file.py > 2023-payment-links.sh
+python read_registration_file.py > generated-payment-links.sh
 ```
