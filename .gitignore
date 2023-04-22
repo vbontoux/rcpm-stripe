@@ -10,3 +10,7 @@
 .venv/
 # Ignore python cache
 __pycache__/
+
+# Ignore generated files
+generated*
+
